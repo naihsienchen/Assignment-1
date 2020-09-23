@@ -14,12 +14,10 @@ namespace Assignment_1.Controllers
         /// <example>GET api/square/{id}</example>
         /// </summary>
         /// <returns>[ id * id ]</returns>
-        public IEnumerable<int> Get(int id)
+        public int Get(id)
         {
-            return new int[] { id * id };
+            return { id * id };
         }
-
-
 
     }
 }

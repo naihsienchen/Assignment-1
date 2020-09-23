@@ -9,11 +9,10 @@ namespace Assignment_1.Controllers
 {
     public class GreetingController : ApiController
     {
-
         // POST api/Greeting
-        public IEnumerable<string> Post ()
+        public string Post ()
         {
-            return new string[] { "Hello World!" };
+            return { "Hello World!" };
         }
 
         // GET api/Greeting/{id}
